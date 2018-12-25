@@ -43,7 +43,7 @@ if(t[k].earnings!=0){
 System.out.println("Taxi - "+(k+1)+"\tTotal Earnings : Rs."+t[k].earnings);
 for(int j=0;j<i;j++){
 if(b[j].taxino==k){
-System.out.println("Customer ID : "+b[j].id+"\nPickup Point : "+b[j].pick+"\nDrop Point : "+b[j].drop+"\nPickup Time : "+b[j].pickTime+"\nDrop Time : "+b[j].dropTime+"\nEarnings : "+b[j].earnings);
+System.out.println("\n\nCustomer ID : "+b[j].id+"\nPickup Point : "+b[j].pick+"\nDrop Point : "+b[j].drop+"\nPickup Time : "+b[j].pickTime+"\nDrop Time : "+b[j].dropTime+"\nEarnings : "+b[j].earnings);
 }
 }
 }
